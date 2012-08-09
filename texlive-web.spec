@@ -1,12 +1,12 @@
-# revision 23089
+# revision 26689
 # category TLCore
 # catalog-ctan /systems/knuth/dist/web
-# catalog-date 2011-03-22 20:51:59 +0100
+# catalog-date 2012-02-22 18:24:24 +0100
 # catalog-license knuth
 # catalog-version 4.5
 Name:		texlive-web
 Version:	4.5
-Release:	2
+Release:	3
 Summary:	original web programs tangle and weave
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/web
@@ -20,11 +20,10 @@ Requires:	texlive-kpathsea
 Requires:	texlive-web.bin
 
 %description
-This is the system that Knuth developed to support the
-development of TeX. Included are weave, which converts a web
-source to something that may be typeset (with appropriate macro
-support) by Plain TeX, and tangle, which converts a web source
-to compilable Pascal.
+The system processes 'web' files in two ways: firstly to
+rearrange them to produce compilable code (using the program
+tangle), and secondly to produce a TeX source (using the
+program weave) that may be typeset for comfortable reading.
 
 #-----------------------------------------------------------------------
 %files
