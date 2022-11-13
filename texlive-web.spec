@@ -1,18 +1,12 @@
-# revision 33736
-# category TLCore
-# catalog-ctan /systems/knuth/dist/web
-# catalog-date 2014-02-26 23:03:13 +0100
-# catalog-license knuth
-# catalog-version 4.5
 Name:		texlive-web
-Version:	4.5
-Release:	14
+Version:	62517
+Release:	1
 Summary:	original web programs tangle and weave
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/web
 License:	KNUTH
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/web.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/web.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/web.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/web.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -34,7 +28,7 @@ program weave) that may be typeset for comfortable reading.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
