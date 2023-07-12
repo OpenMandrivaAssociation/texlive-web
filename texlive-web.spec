@@ -1,6 +1,6 @@
 Name:		texlive-web
-Version:	62517
-Release:	2
+Version:	66186
+Release:	1
 Summary:	original web programs tangle and weave
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/web
