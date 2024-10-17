@@ -3,7 +3,7 @@ Version:	70015
 Release:	1
 Summary:	original web programs tangle and weave
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/web
+URL:		https://www.ctan.org/tex-archive/systems/knuth/dist/web
 License:	KNUTH
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/web.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/web.doc.r%{version}.tar.xz
